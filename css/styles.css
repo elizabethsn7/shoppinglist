@@ -13,11 +13,18 @@ h1, h2 {
 .wrapper {
 	text-align: center;
 }
-.logo {
+.trash {
 	height: 32px;
 	width: 32px;
 	margin-left: 75px
 }
 .shoppinglist li {
 	list-style-type: none;
+}
+ul {
+	width: 500px;
+	margin: 0 auto;
+}
+li span {
+	text-align: right;
 }
