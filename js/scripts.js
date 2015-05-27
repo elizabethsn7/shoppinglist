@@ -20,7 +20,9 @@ $(document).ready(function() {
 	$('ul').on('click', '.trash', function() {
 		console.log('click trash');
 	})
-
+$('.iteminput').click(function() {
+	$("item").remove('iteminput')
+});
 
 	//$('typekit').load() 	
 });
