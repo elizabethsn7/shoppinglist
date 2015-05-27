@@ -28,3 +28,6 @@ ul {
 li span {
 	text-align: right;
 }
+.checked {
+	color:red;
+}

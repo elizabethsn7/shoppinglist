@@ -6,7 +6,8 @@ $(document).ready(function() {
 			console.log('empty item');
 
 		} else { 
-			addItem()
+			addItem();
+			$('.iteminput').val('');
 
 		}
 
@@ -19,10 +20,25 @@ $(document).ready(function() {
 	}
 	$('ul').on('click', '.trash', function() {
 		console.log('click trash');
-	})
-$('.iteminput').click(function() {
-	$("item").remove('iteminput')
+
+		$(this).parent().remove();
+	});
+
+
+	$('ul').on('click', '.item', function() {
+		 console.log('click item');
+
+		$(this).parent().addClass('checked');
+	});
+
+	$('.removeitems').click(function() {
+		console.log('remove all');
+
+		$('.checked').remove();
+
+
+
+	});
+
 });
 
-	//$('typekit').load() 	
-});
