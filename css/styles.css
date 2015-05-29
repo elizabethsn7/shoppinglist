@@ -31,3 +31,7 @@ li span {
 .checked {
 	color:red;
 }
+form .checkboxes {
+	display: block;
+	margin: 10px auto;
+}
