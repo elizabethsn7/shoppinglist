@@ -35,3 +35,8 @@ form .checkboxes {
 	display: block;
 	margin: 10px auto;
 }
+li.meat:before {
+	content:'\2022';
+	font-size: 24px;	
+	color: purple;
+}

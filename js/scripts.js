@@ -8,15 +8,17 @@ $(document).ready(function() {
 		} else { 
 			addItem();
 			$('.iteminput').val('');
-			
-
+			$('.checkboxes input').removeAttr('checked');
 		}
 
 	});	
 
 	function addItem() {
 		var newItem = $('.iteminput').val();
-		var newItemNode = '<li><span class="item">' + newItem + '</span><img class="trash" src="images/trash.png"></li>';
+		var itemCategory = $('.checkboxes input:checked').closest('label').text().toLowerCase();
+		var newItemNode = '<li class="' + itemCategory + '"><span class="item">' + newItem + '</span><img class="trash" src="images/trash.png"></li>';
+		
+
 		$('ul').append(newItemNode);
 	}
 	$('ul').on('click', '.trash', function() {
