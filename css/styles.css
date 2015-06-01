@@ -3,11 +3,18 @@ h1, h2 {
 	text-align: center;
 	color: white;
   }
-  .header, h1 {
+h1 {
   	font-family: "grafolita-script",sans-serif;
+  	margin: 0;
+  	padding: 20px;
+  }
+  h2 {
+  	margin: 0;
+  	padding-bottom: 20px;
   }
 .header {
 	background-color: orange;
+	margin-bottom: 40px;
 
 }
 .wrapper {
