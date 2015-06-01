@@ -38,13 +38,14 @@ $(document).ready(function() {
 		console.log('remove all');
 
 		$('.checked').remove();
-	$(".meat").append($('<div>', { id: sensorId + "VisibleCheckbox", type:"checkbox", name: sensorId +"VisibleCheckbox"}));
-	
+		
+		$('.meat').append
+
 	$('input[type=radio]').each(function(){
 		this.click();
 		console.log('radio', this.checked);
 	});
-	$('input[type=checkbox]').each(function(){
+	$('input[type=radio]').each(function(){
     this.click();
     console.log('Should be false', this.checked);
 });
