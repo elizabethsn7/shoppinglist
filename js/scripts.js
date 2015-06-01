@@ -40,9 +40,9 @@ $(document).ready(function() {
 		$('.checked').remove();
 	$(".meat").append($('<div>', { id: sensorId + "VisibleCheckbox", type:"checkbox", name: sensorId +"VisibleCheckbox"}));
 	
-	$("input[type=checkbox]").each(function(){
+	$('input[type=radio]').each(function(){
 		this.click();
-		console.log('checkbox', this.checked);
+		console.log('radio', this.checked);
 	});
 	$('input[type=checkbox]').each(function(){
     this.click();
