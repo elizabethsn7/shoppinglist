@@ -67,3 +67,7 @@ li.meat:before {
 	color: purple;
 	float: left;
 }
+label {
+	margin: 10px;
+
+}
