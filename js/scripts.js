@@ -41,6 +41,19 @@ $(document).ready(function() {
 		
 		$('.meat').append
 
+		$('.dairy').append
+
+		$('.produce').append
+
+		$('.bakery').append
+
+		$('.drygoods').append
+
+		$('.frozen').append
+
+		$('.other').append
+
+
 	$('input[type=radio]').each(function(){
 		this.click();
 		console.log('radio', this.checked);

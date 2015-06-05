@@ -8,7 +8,7 @@ h1 {
   	margin: -20px;
   	padding-top: 20px;
   	padding-bottom: 7px;
-  	font-size: 55px;
+  	font-size: 62px;
   	background-color: #F7D472;
   	text-align: center;
 	color: #F97432;
@@ -78,8 +78,54 @@ li.meat:before {
 	color: purple;
 	float: left;
 	margin-top: -2px;
-
 }
+li.dairy:before {
+	content:'\2022';
+	font-size: 24px;	
+	color: #7FFFD4;
+	float: left;
+	margin-top: -2px;
+}
+
+li.produce:before {
+	content:'\2022';
+	font-size: 24px;	
+	color: green;
+	float: left;
+	margin-top: -2px;
+}
+
+li.bakery:before {
+	content:'\2022';
+	font-size: 24px;	
+	color: yellow;
+	float: left;
+	margin-top: -2px;
+	}
+
+li.drygoods:before {
+	content:'\2022';
+	font-size: 24px;	
+	color: red;
+	float: left;
+	margin-top: -2px;
+	}
+
+li.frozen:before {
+	content:'\2022';
+	font-size: 24px;	
+	color: blue;
+	float: left;
+	margin-top: -2px;
+	}
+li.other:before {
+	content:'\2022';
+	font-size: 24px;	
+	color: black;
+	float: left;
+	margin-top: -2px;
+}
+
 label {
 	margin: 6px;
 	line-height: 27px;
