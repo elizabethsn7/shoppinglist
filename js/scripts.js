@@ -18,9 +18,9 @@ $(document).ready(function() {
 		var itemCategory = $('.checkboxes input:checked').closest('label').text().toLowerCase();
 		var newItemNode = '<li class="' + itemCategory + '"><span class="item">' + newItem + '</span><img class="trash" src="images/trash.png"></li>';
 		
-
 		$('ul').append(newItemNode);
 	}
+
 	$('ul').on('click', '.trash', function() {
 		console.log('click trash');
 
@@ -38,32 +38,19 @@ $(document).ready(function() {
 		console.log('remove all');
 
 		$('.checked').remove();
-		
-		$('.meat').append
-
-		$('.dairy').append
-
-		$('.produce').append
-
-		$('.bakery').append
-
-		$('.drygoods').append
-
-		$('.frozen').append
-
-		$('.other').append
+	});
 
 
 	$('input[type=radio]').each(function(){
 		this.click();
 		console.log('radio', this.checked);
 	});
+	
 	$('input[type=radio]').each(function(){
-    this.click();
-    console.log('Should be false', this.checked);
-});
-
+    	this.click();
+    	console.log('Should be false', this.checked);
 	});
 
 });
+
 
