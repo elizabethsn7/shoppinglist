@@ -7,7 +7,7 @@ h1 {
   	font-family: "grafolita-script",sans-serif;
   	margin: -20px;
   	padding-top: 20px;
-  	padding-bottom: 20px;
+  	padding-bottom: 7px;
   	font-size: 55px;
   	background-color: #F7D472;
   	text-align: center;
@@ -36,22 +36,29 @@ h2 {
 	text-align: center;
 }
 .trash {
-	height: 32px;
-	width: 32px;
-	margin-left: 75px;
+	width: 20px;
 	float: right;
+	vertical-align: middle;
 }
 .shoppinglist li {
 	list-style-type: none;
 	overflow: auto;
+	text-align: left;
+	vertical-align: middle;
+	background-color: lightblue;
+	margin: 8px 0;
+	padding: 6px 6px 0px;
 }
 ul {
-	width: 500px;
-	margin: 0 auto;
-
+	margin: 0 auto 20px;
+	padding: 0;
+	width: 70%;
+	min-width: 240px;
 }
 li span {
-	text-align: right;
+	vertical-align: middle;
+	margin-left: 5px;
+	
 }
 .checked {
 	color:red;
@@ -60,13 +67,21 @@ form .checkboxes {
 	display: block;
 	margin: 25px;
 }
+.checkboxes input{
+	margin-right: 8px;
+
+}
+
 li.meat:before {
 	content:'\2022';
 	font-size: 24px;	
 	color: purple;
 	float: left;
-}
-label {
-	margin: 10px;
+	margin-top: -2px;
 
 }
+label {
+	margin: 6px;
+	line-height: 27px;
+}
+
