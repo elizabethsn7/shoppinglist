@@ -71,6 +71,13 @@ form .checkboxes {
 	margin-right: 8px;
 
 }
+li:before {
+	content:'\2022';
+	font-size: 24px;	
+	color: white;
+	float: left;
+	margin-top: -2px;
+}
 
 li.meat:before {
 	content:'\2022';

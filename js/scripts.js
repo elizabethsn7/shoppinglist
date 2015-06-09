@@ -16,7 +16,7 @@ $(document).ready(function() {
 	function addItem() {
 		var newItem = $('.iteminput').val();
 		var itemCategory = $('.checkboxes input:checked').closest('label').text().toLowerCase();
-		var newItemNode = '<li class="' + itemCategory + '"><span class="item">' + newItem + '</span><img class="trash" src="images/trash.png"></li>';
+		var newItemNode = '<li class="' + itemCategory + '"><span class="item">' + newItem + '</span><img class="trash" src="images/x.png"></li>';
 		
 		$('ul').append(newItemNode);
 	}
@@ -38,17 +38,7 @@ $(document).ready(function() {
 		console.log('remove all');
 
 		$('.checked').remove();
-	});
 
-
-	$('input[type=radio]').each(function(){
-		this.click();
-		console.log('radio', this.checked);
-	});
-	
-	$('input[type=radio]').each(function(){
-    	this.click();
-    	console.log('Should be false', this.checked);
 	});
 
 });
