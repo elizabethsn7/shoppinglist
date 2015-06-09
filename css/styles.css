@@ -40,14 +40,12 @@ h2 {
 	float: right;
 	vertical-align: middle;
 }
-.shoppinglist .gradiant li {
+.shoppinglist li {
 	list-style-type: none;
 	overflow: auto;
 	text-align: left;
 	vertical-align: middle;
-	background-image:
-    linear-gradient(
-      red, #f06d06;
+	background-color:lightblue;
 	border-radius: 10px;
 	margin: 8px 0;
 	padding: 6px 6px 0px;
@@ -140,7 +138,7 @@ label {
 	margin: 6px;
 	line-height: 27px;
 }
-.gradient {
+.gradiant {
   background-image:
     linear-gradient(
       red, #f06d06
