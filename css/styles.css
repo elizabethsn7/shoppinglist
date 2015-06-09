@@ -45,7 +45,7 @@ h2 {
 	overflow: auto;
 	text-align: left;
 	vertical-align: middle;
-	background-color:lightblue;
+	background-image:linear-gradient(red, #f06d06);
 	border-radius: 10px;
 	margin: 8px 0;
 	padding: 6px 6px 0px;
@@ -55,7 +55,9 @@ ul {
 	padding: 0;
 	width: 70%;
 	min-width: 240px;
-}
+	list-style: none;
+}	
+
 li span {
 	vertical-align: middle;
 	margin-left: 5px;
@@ -69,7 +71,7 @@ form .checkboxes {
 	margin: 25px;
 }
 .checkboxes input{
-	margin-right: 8px;
+	margin-right: px;
 
 }
 li:before {
@@ -138,10 +140,6 @@ label {
 	margin: 6px;
 	line-height: 27px;
 }
-.gradiant {
-  background-image:
-    linear-gradient(
-      red, #f06d06
-    );
-}
+
+
 
