@@ -40,12 +40,15 @@ h2 {
 	float: right;
 	vertical-align: middle;
 }
-.shoppinglist li {
+.shoppinglist .gradiant li {
 	list-style-type: none;
 	overflow: auto;
 	text-align: left;
 	vertical-align: middle;
-	background-color: lightblue;
+	background-image:
+    linear-gradient(
+      red, #f06d06;
+	border-radius: 10px;
 	margin: 8px 0;
 	padding: 6px 6px 0px;
 }
@@ -82,7 +85,7 @@ li:before {
 li.meat:before {
 	content:'\2022';
 	font-size: 24px;	
-	color: purple;
+	color: red;
 	float: left;
 	margin-top: -2px;
 }
@@ -113,7 +116,7 @@ li.bakery:before {
 li.dry:before {
 	content:'\2022';
 	font-size: 24px;	
-	color: red;
+	color: orange;
 	float: left;
 	margin-top: -2px;
 	}
@@ -136,5 +139,11 @@ li.other:before {
 label {
 	margin: 6px;
 	line-height: 27px;
+}
+.gradient {
+  background-image:
+    linear-gradient(
+      red, #f06d06
+    );
 }
 
