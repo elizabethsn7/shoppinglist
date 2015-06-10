@@ -71,7 +71,7 @@ form .checkboxes {
 	margin: 25px;
 }
 .checkboxes input{
-	margin-right: px;
+	margin-right: 2px;
 
 }
 li:before {
@@ -140,6 +140,12 @@ label {
 	margin: 6px;
 	line-height: 27px;
 }
-
+.removeitems {
+  background-color: lightblue;
+  padding: 8px;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
 
 
