@@ -86,14 +86,14 @@ li:before {
 li.meat:before {
 	content:'\2022';
 	font-size: 24px;	
-	color: red;
+	color: #FF411D;
 	float: left;
 	margin-top: -2px;
 }
 li.dairy:before {
 	content:'\2022';
 	font-size: 24px;	
-	color: #7FFFD4;
+	color: white;
 	float: left;
 	margin-top: -2px;
 }
@@ -101,7 +101,7 @@ li.dairy:before {
 li.produce:before {
 	content:'\2022';
 	font-size: 24px;	
-	color: green;
+	color: #4AFF4B;
 	float: left;
 	margin-top: -2px;
 }
@@ -109,7 +109,7 @@ li.produce:before {
 li.bakery:before {
 	content:'\2022';
 	font-size: 24px;	
-	color: yellow;
+	color: #FFD01D;
 	float: left;
 	margin-top: -2px;
 	}
@@ -117,7 +117,7 @@ li.bakery:before {
 li.dry:before {
 	content:'\2022';
 	font-size: 24px;	
-	color: orange;
+	color: #E8800F;
 	float: left;
 	margin-top: -2px;
 	}
@@ -125,7 +125,7 @@ li.dry:before {
 li.frozen:before {
 	content:'\2022';
 	font-size: 24px;	
-	color: blue;
+	color: #35E4FF;
 	float: left;
 	margin-top: -2px;
 	}
